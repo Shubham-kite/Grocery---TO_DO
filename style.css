@@ -1,0 +1,41 @@
+html,body
+{
+    width:50%;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    width:360px;
+}
+#inputfield
+{
+    width: 300px;
+    height: 46px;
+    border:1px solid black;
+    outline: none;
+    vertical-align: middle;
+}
+#add
+{
+    height:50px;
+    width:50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    outline: none;
+    
+}
+#add :hover
+{
+    color:rgba(0, 132, 255, 0.918);
+    cursor:pointer;
+}
+.to-dos
+{
+    margin-top: 25px;
+}
+.values
+{
+    cursor: pointer;
+    font-family: cursive;
+}
