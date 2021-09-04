@@ -4,6 +4,11 @@ html,body
     margin:0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1
+{
+    align-items: center;
+    font-family: cursive;
+}
 .container
 {
     width:360px;
@@ -12,23 +17,31 @@ html,body
 {
     width: 300px;
     height: 46px;
-    border:1px solid black;
     outline: none;
     vertical-align: middle;
+    border-radius:7px;
+    font-size:25px;
+    background-image: linear-gradient(rgb(204, 202, 202),white);
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;
 }
 #add
 {
     height:50px;
     width:50px;
-    border: 1px solid black;
-    vertical-align: middle;
+    border-style:none;
+    border-radius: 7px;
+    /*vertical-align: middle;*/
     outline: none;
-    
+    background-image: linear-gradient(rgba(217, 255, 0, 0.623),green);
+    box-shadow: 5px 10px #888888;
+ 
 }
-#add :hover
+button:hover
 {
-    color:rgba(0, 132, 255, 0.918);
+    background-color:chartreuse;
     cursor:pointer;
+    
 }
 .to-dos
 {
